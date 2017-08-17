@@ -14,7 +14,7 @@ cin>>b;
 
 suma=a+b;
 
-cout<<"\n la suma de "<<a<<"+"<<b<<" es:"<<suma;
+cout<<suma;
 
 return 0;
 
