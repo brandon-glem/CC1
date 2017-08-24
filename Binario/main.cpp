@@ -10,5 +10,5 @@ int main(){
      else{
          cout<<"El anio "<<a<<" No es bisiesto ";
      }
-      return 0;0
+      return 0;
 }

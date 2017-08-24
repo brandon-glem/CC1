@@ -1,19 +1,20 @@
 #include <iostream>
+
 using namespace std;
+
 int main(){
-   int a=0,i,n;
-         cout<<"Ingrese numero"<<endl;
-         cin>>n;
-         for(i=1;i<(n+1);i++){
-            if(n%i==0){
-                a++;
-                }
-            }
-            if(a!=2){
-              cout<<"No es Primo";
-            }
-            else{
-              cout<<"Si es Primo";
-            }
+    int numero, divisores=0,i;
+    cout<<"ingrese numero: ";
+    cin>>numero;
+    for(i=1;i<(numero+1);i=i+1){
+        if ((numero%i)==0){
+            divisores=divisores+1;
+        }
+    }
+    if(divisores!=2){
+        cout<<"no es primo";
+    }
+    else
+        cout<< "es primo";
     return 0;
 }
