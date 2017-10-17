@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1508250037 source:c:\users\alumno-d\desktop\class\jugador\main.cpp
+	<iostream>
+	<string>
+	"jugador.h"
+	"equipo.h"
+
+1507825018 c:\users\alumno-d\desktop\class\jugador\include\jugador.h
+	<string>
+	<iostream>
+
+1507825018 source:c:\users\alumno-d\desktop\class\jugador\src\jugador.cpp
+	"jugador.h"
+
+1507824572 source:e:\class\jugador\main.cpp
+	<iostream>
+	<string>
+	"jugador.h"
+
+1507825018 e:\class\jugador\include\jugador.h
+	<string>
+	<iostream>
+
+1507824788 source:e:\class\jugador\src\equipo.cpp
+	"equipo.h"
+
+1507824788 e:\class\jugador\include\equipo.h
+
+1507825018 source:e:\class\jugador\src\jugador.cpp
+	"jugador.h"
+
+1508249967 source:c:\users\alumno-d\desktop\class\jugador\src\equipo.cpp
+	"equipo.h"
+	"jugador.h"
+
+1508249821 c:\users\alumno-d\desktop\class\jugador\include\equipo.h
+	<string>
+	<iostream>
+	"jugador.h"
+
