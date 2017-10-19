@@ -1,6 +1,8 @@
 #ifndef COMPLEJO_H
 #define COMPLEJO_H
+#include <iostream>
 
+using namespace std;
 
 class complejo
 {
@@ -13,8 +15,8 @@ class complejo
 
         complejo suma(complejo x);
         bool igualdad(complejo x);
-        complejo multiplicacion(complejo x);
-        void print()
+        void multiplicacion(int o);
+        void print();
 };
 
 #endif // COMPLEJO_H
