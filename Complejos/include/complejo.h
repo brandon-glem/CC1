@@ -4,11 +4,17 @@
 
 class complejo
 {
+    private:
+        int r;
+        int i;
     public:
         complejo();
-        virtual ~complejo();
-    protected:
-    private:
+        complejo(int x, int y);
+
+        complejo suma(complejo x);
+        bool igualdad(complejo x);
+        complejo multiplicacion(complejo x);
+        void print()
 };
 
 #endif // COMPLEJO_H
