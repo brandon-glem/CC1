@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1508846680 source:h:\c++\fecha\main.cpp
+	<iostream>
+	"fecha.h"
+
+1508847174 h:\c++\fecha\include\fecha.h
+	<string>
+	<iostream>
+
+1508847198 source:h:\c++\fecha\src\fecha.cpp
+	"fecha.h"
+
