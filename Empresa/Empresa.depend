@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1509460920 source:e:\c++\empresa\main.cpp
+	<iostream>
+	"empleado.h"
+	"fecha.h"
+
+1509460898 source:e:\c++\empresa\src\fecha.cpp
+	"fecha.h"
+
+1509461574 e:\c++\empresa\include\fecha.h
+	<string>
+	<iostream>
+
+1509460716 source:e:\c++\empresa\src\empleado.cpp
+	"empleado.h"
+	"fecha.h"
+
+1509461582 e:\c++\empresa\include\empleado.h
+	<string>
+	<iostream>
+	"fecha.h"
+
