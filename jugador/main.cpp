@@ -12,6 +12,5 @@ int main()
 //    g.print();
 //    b.print();
     equipo a;
-    a.crear_equipo();
     return 0;
 }
